@@ -1,4 +1,4 @@
 # Calculadora
 
-Calculadora de operações básicas
-Desenvolvido com Html, Css e JavaScript
+##Calculadora de operações básicas
+##Desenvolvido com Html, Css e JavaScript

@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    max-width: 400px;
+    min-width: 250px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.tela{
+    background-color: rgb(255, 255, 255);
+    height: 20%;
+    border: 10px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttons{
+    display: flex;
+}
+.teclado{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.sinais, .numeros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17%;
+    height: 50px;
+    background-color: rgb(185, 78, 167);
+    margin-bottom: 20px;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+
+}
+.button:hover{
+    border: none;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+}
+.maior{
+    width: 20%;
+    
+}
+.maior .button{
+    margin: 5px 2px;
+    height: 88%;
+    width: 90%;
+    
+}
